@@ -15,11 +15,12 @@ fun WeatherAppHomeScreen(weatherViewModel: WeatherViewModel) {
     val weather: Weather? = weatherState.value
     if (weather != null) {
         Column() {
-            Text(text = weather.main.temp.toString())
-            Text(text = weather.wind.speed.toString())
-            Text(text = weather.main.tempMax.toString())
-            Text(text = weather.main.tempMin.toString())
-            Text(text = weather.weather[0].description)
+            Text(text = "Checking weather for " + weather.name + ":")
+            Text(text = "Temperature: " + weather.main.temp.toString() + "\u00B0")
+            Text(text = "Sky: " + weather.weather[0].description)
+            Text(text = "Max temperature: " + weather.main.tempMax.toString() + "\u00B0")
+            Text(text = "Min temperature: " +weather.main.tempMin.toString() + "\u00B0")
+            Text(text = "Wind speed: " + weather.wind.speed.toString() + " km/h")
         }
     }
 }
