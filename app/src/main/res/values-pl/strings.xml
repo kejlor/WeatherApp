@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="checking_weather_for">"Sprawdzam pogodę dla "</string>
+    <string name="temperature">"Temperatura: "</string>
+    <string name="sky">"Niebo: "</string>
+    <string name="max_temp">"Maksymalna temperatura: "</string>
+    <string name="min_temp">"Minimalna temperatura: "</string>
+    <string name="wind_speed">"Prędkość wiatru: "</string>
+</resources>

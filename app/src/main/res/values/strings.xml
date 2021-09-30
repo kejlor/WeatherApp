@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">WeatherApp</string>
+    <string name="checking_weather_for">"Checking weather for "</string>
+    <string name="temperature">"Temperature: "</string>
+    <string name="sky">"Sky: "</string>
+    <string name="max_temp">"Max temperature: "</string>
+    <string name="min_temp">"Min temperature: "</string>
+    <string name="wind_speed">"Wind speed: "</string>
 </resources>
